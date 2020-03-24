@@ -129,13 +129,14 @@
 
       <div class="row">
         <div class="col-md-6">
-          <a href="register.php" class="btn btn-primary pull-left">Sign Up</a>
+          <a  data-toggle="modal" data-target="#myModal" class="btn btn-primary pull-left">Sign Up</a>
         </div>
         <div class="col-md-6">
           <input type="submit" class="btn btn-success pull-right" name="signin" value="Sign In">
         </div>
       </div>
     </form>
+    <?php include('admin/modal_adduser.php') ?>
   </div>
   <!-- /.login-box-body -->
 </div>
